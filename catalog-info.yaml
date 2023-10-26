@@ -1,17 +1,17 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: 'labs-ozzyib-nodejs'
+  name: 'labs-mfox-nodejs'
   description: "Deploying a Node.js application"
   annotations:
     # This must match folder-name/job-name in Jenkins.
-    jenkins.io/job-full-name: cft:HMCTS_labs/labs-ozzyib-nodejs
-    github.com/project-slug: 'hmcts/labs-ozzyib-nodejs'
+    jenkins.io/job-full-name: cft:HMCTS_labs/labs-mfox-nodejs
+    github.com/project-slug: 'hmcts/labs-mfox-nodejs'
   tags:
     - nodejs
   links:
-    - url: https://hmcts-reform.slack.com/app_redirect?channel=ozzy.ibrahim
-      title: ozzy.ibrahim on Slack
+    - url: https://hmcts-reform.slack.com/app_redirect?channel=martin.fox
+      title: martin.fox on Slack
       icon: chat
 spec:
   type: service

@@ -9,7 +9,7 @@ pipelineTriggers([cron('H 05 * * *')])
 
 def type = "nodejs"
 def product = "labs"
-def component = "ozzyib-nodejs"
+def component = "mfox-nodejs"
 
 withNightlyPipeline(type, product, component) {
   afterAlways('build') {

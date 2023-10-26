@@ -4,7 +4,7 @@
 
 def type = "nodejs"
 def product = "labs"
-def component = "ozzyib-nodejs"
+def component = "mfox-nodejs"
 
 // docs:
 // 1. https://github.com/hmcts/cnp-jenkins-library

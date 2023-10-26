@@ -1,7 +1,7 @@
 version: '2'
 
 services:
-  ozzyib-nodejs:
+  mfox-nodejs:
     build:
       context: .
       args:
